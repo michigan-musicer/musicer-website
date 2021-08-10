@@ -1,0 +1,14 @@
+.about-container {
+  display: flex;
+  flex-direction: vertical;
+  justify-content: space-between;
+  width: 20em;
+}
+
+.about-title {
+  height: 5em;
+}
+
+.about-body {
+  height: 10em;
+} 

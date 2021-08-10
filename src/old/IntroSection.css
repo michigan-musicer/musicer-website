@@ -1,0 +1,6 @@
+.intro-section-container {
+  min-height: 20em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
