@@ -15,8 +15,8 @@ export default function App() {
         <About props={getAboutProps()}/>
       </div>
       <div className='app-rightside-container'>
-        {/* <NavigationBar/>
-        <Portfolio/> */}
+        <NavigationBar/>
+        {/* <Portfolio/> */}
       </div>
     </div>
   );

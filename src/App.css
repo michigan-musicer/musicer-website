@@ -1,7 +1,7 @@
 .app-container {
-  width: 100vw;
-  /* howwwwwwwwwww */
-  height: max(100vh, fit-content);
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
   display: flex;
   background-color: tan; 
 }

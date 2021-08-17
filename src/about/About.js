@@ -21,11 +21,12 @@ export default function About(props) {
           {/* <p>{props.desc}</p> */}
           <p>I am a computer science student at the University of Michigan, planning on
             graduating this fall and entering an accelerated master's program at Michigan
-            in the winter. Currently I'm interested in machine learning research 
-            (currently leaning towards topics in deep computer vision).</p>
+            in the winter. Currently I'm most interested in machine learning research 
+            (strongly leaning towards computer vision), but I also just enjoy writing good
+            code to make ideas real.</p>
           <p>  
             Seeking internships for the summer in full stack positions, preferably 
-            with a chance to work with contributing to machine learning pipelines.
+            those with opportunities to contribute to machine learning pipelines.
           </p>
           <p>  
             Contact: musicer (at) umich.edu
