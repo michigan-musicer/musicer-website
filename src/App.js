@@ -5,6 +5,14 @@ import './App.css';
 import getAboutProps from './about/getAboutProps.js';
 
 export default function App() {
+  const PortfolioProps = {
+    title: 'hello world',
+    item: {
+      desc: 'who',
+      img: ''
+    }
+  }
+
 // need LHS about me bar, RHS portfolio
 // about me bar should be in em, not percent
 // will need to make it responsive to be viewable on mobile
@@ -15,8 +23,8 @@ export default function App() {
         <About props={getAboutProps()}/>
       </div>
       <div className='app-rightside-container'>
-        <NavigationBar/>
-        {/* <Portfolio/> */}
+        <NavigationBar />
+        <Portfolio props={PortfolioProps}/>
       </div>
     </div>
   );

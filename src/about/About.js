@@ -22,11 +22,12 @@ export default function About(props) {
           <p>I am a computer science student at the University of Michigan, planning on
             graduating this fall and entering an accelerated master's program at Michigan
             in the winter. Currently I'm most interested in machine learning research 
-            (strongly leaning towards computer vision), but I also just enjoy writing good
+            (strongly leaning towards computer vision), but I also enjoy just writing good
             code to make ideas real.</p>
           <p>  
-            Seeking internships for the summer in full stack positions, preferably 
-            those with opportunities to contribute to machine learning pipelines.
+            <b>Seeking internships for summer 2022</b> in full stack positions, preferably 
+            those adjacent to machine learning or with opportunities to 
+            contribute to machine learning pipelines.
           </p>
           <p>  
             Contact: musicer (at) umich.edu
