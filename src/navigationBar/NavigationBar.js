@@ -3,7 +3,7 @@ import './NavigationBar.css';
 export default function NavigationBar(props) {
   let listWithNumItems = [];
   // should replace with props.props.numItems
-  for (let i = 0; i < 1; ++i) {
+  for (let i = 0; i < props.props.items.length; ++i) {
     listWithNumItems.push(i);
   }
   
@@ -14,10 +14,10 @@ export default function NavigationBar(props) {
         {
           listWithNumItems.map((i) =>
             <li key={i} className='navigation-bar-item'>
-              {/* should replace with props.props.items[i] */}
-              <h2 className='navigation-bar-text'>Portfolio</h2>
+              <h2 className='navigation-bar-text'>{props.props.items[i]}</h2>
               <hr className='navigation-bar-underline'/>
-            </li>)
+            </li>
+          )
         }
         </ul>
       </div>

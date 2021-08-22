@@ -4,6 +4,17 @@ import './Section.css';
 
 export default function Section(props){
   console.log(props);
+  let listWithNumItems = [];
+  let listWithNumSections = [];
+  for (let i = 0; i < props.props.items.length; ++i) {
+    listWithNumItems.push(i);
+  }
+  if (props.props.subsections) {
+    for (let i = 0; i < props.props.subsections.length; ++i) {
+      listWithNumSections.push(i);
+    }
+  }
+
   return (
     <div className='section-container'>
       <h2 className='section-header'>{props.props.title}</h2>
@@ -11,10 +22,21 @@ export default function Section(props){
       <div>
         {/* we want a similar mapping strategy from the navbar */}
         <ul>
-          <li>
-            <Item props={props.props.item}/>
-          </li>
+          {
+            listWithNumItems.map((i) =>
+              <li>
+                <Item props={props.props.items[i]}/>
+              </li>
+            )
+          }
         </ul>
+        {
+          listWithNumSections.map((i) =>
+          // create a subsection that's smaller -- might want to use flex tricks
+          // drop down menus! with a preview 
+          <div>{props.props.subsections[i].subsection}</div>
+          )
+        }
       </div>
     </div>
   );
