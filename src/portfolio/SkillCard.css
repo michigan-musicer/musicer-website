@@ -1,6 +1,6 @@
-.about-container {
-  width: 100%;
-  height: 100%;
+.skillcard-container {
+  width: 23%;
+  margin: 0em 0.5em 0.5em 0.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,22 +13,18 @@
 
 }
 
-.about-spacing {
+.skillcard-spacing {
   height: 100%;
   display: flex;
   flex-direction: column;
   padding: 1em;
 }
 
-.about-title {
-  height: 6em;
+.skillcard-title-text {
+  margin: 0;
 }
 
-.about-body {
+.skillcard-body {
   height: auto;
   width: 100%;
 } 
-
-.about-image {
-  width: 100%;
-}

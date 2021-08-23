@@ -49,16 +49,43 @@ export default function Education() {
     title: 'Selected coursework',
     items: [
       {
-        desc: <p>Course</p>
+        desc: <p>Operating Systems (currently taking)</p>
+      },
+      {
+        desc: <p>Algorithms (currently taking)</p>
+      },
+      {
+        desc: <p>Search Engine Design</p>
+      },
+      {
+        desc: <p>Database Management Systems</p>
+      },
+      {
+        desc: <p>Adversarial Machine Learning</p>
+      },
+      {
+        desc: <p>Machine Learning</p>
+      },
+      {
+        desc: <p>Data Structures and Algorithms</p>
+      },
+      {
+        desc: <p>Foundations of Computer Science</p>
+      },
+      {
+        desc: <p>Intro to Computer Organization</p>
+      },
+      {
+        desc: <p>Computer Science Pragmatics</p>
       },
     ]
   };
   
   return (
     <div>
-    <Section props={sectionProps}/>
-    <DropDown props={awardsDropDownProps}/>
-    <DropDown props={classesDropDownProps}/>
+      <Section props={sectionProps}/>
+      <DropDown props={awardsDropDownProps}/>
+      <DropDown props={classesDropDownProps}/>
     </div>
   );
 }
