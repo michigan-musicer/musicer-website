@@ -32,5 +32,9 @@
   justify-content: space-between;
 }
 
+.dropdown-content-list {
+  list-style-type: disc;
+}
+
 /* .dropdown-content {
 } */

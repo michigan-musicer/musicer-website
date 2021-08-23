@@ -27,7 +27,7 @@ export default function DropDown(props) {
   }
 
   return (
-    <div className='dropdown-container'>
+    <div className='dropdown-container' style={props.props.indent ? {}: {margin: '0.5em 0em'}}>
       <button className='dropdown-button' onClick={handleClick}>
         {/* I'd like to put some code here to preview the first however many 
         characters of the content */}
@@ -36,10 +36,10 @@ export default function DropDown(props) {
         </div>
       </button>
       <div className='dropdown-content' hidden={isHidden}>
-        <ul>
+        <ul className='dropdown-content-list'>
           {
             listWithNumItems.map((i) =>         
-              <li><div>{props.props.items[i].desc}</div></li>
+              <li><div>{props.props.items[i].item}</div></li>
             )
           }
         </ul>

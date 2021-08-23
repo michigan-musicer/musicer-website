@@ -20,7 +20,7 @@ export default function About(props) {
           <img className='about-image' src={PortfolioPic}/>
           {/* <p>{props.desc}</p> */}
           <p>I am a computer science student at the University of Michigan, planning on
-            graduating this fall and entering an accelerated master's program at Michigan
+            receiving my bachelor's degree this fall and entering an accelerated master's program at Michigan
             in the winter. Currently I'm most interested in machine learning research 
             (strongly leaning towards computer vision), but I also enjoy just writing good
             code to make ideas real.</p>

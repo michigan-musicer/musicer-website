@@ -6,14 +6,14 @@ export default function Education() {
     title: 'Education',
     items: [
       {
-        desc: <p>Prospective <b>M.S.E University of Michigan-Ann Arbor, 
-          Computer Science and Engineering </b> <em>Jan 2022 - May 2023</em></p>,
-        img: ''
+        left: <p>Prospective <b>M.S.E University of Michigan-Ann Arbor, 
+          Computer Science and Engineering </b></p>,
+        right: <em>Jan 2022 - May 2023</em>
       },
       {
-        desc: <p><b>B.S.E University of Michigan-Ann Arbor, 
-          Computer Science and Engineering </b> <em>Sept 2019 - Dec 2021</em></p>,
-        img: ''
+        left: <p><b>B.S.E University of Michigan-Ann Arbor, 
+          Computer Science and Engineering </b> </p>,
+        right: <em>Sept 2019 - Dec 2021</em>
       },
     ]
   };
@@ -22,63 +22,65 @@ export default function Education() {
       title: 'Awards',
       items: [
       {
-        desc: <p>James B. Angell Scholar</p>
+        item: <p>James B. Angell Scholar</p>
       },
       {
-        desc: <p>Charles Barth Jr. Prize finalist</p>
+        item: <p>Charles Barth Jr. Prize finalist</p>
       },
       {
-        desc: <p>EECS Scholar</p>
+        item: <p>EECS Scholar</p>
       },
       {
-        desc: <p>William J. Branstrom Freshman Prize</p>
+        item: <p>William J. Branstrom Freshman Prize</p>
       },
       {
-        desc: <p>University Honors (x5)</p>
+        item: <p>University Honors (x5)</p>
       },
       {
-        desc: <p>Dean’s List (x2)</p>
+        item: <p>Dean’s List (x2)</p>
       },
       {
-        desc: <p>Regents Merit Scholarship for academic merit</p>
-      }
-    ]
+        item: <p>Regents Merit Scholarship for academic merit</p>
+      },
+    ],
+    indent: true,
   };
 
   let classesDropDownProps = {
     title: 'Selected coursework',
     items: [
       {
-        desc: <p>Operating Systems (currently taking)</p>
+        item: <p>Operating Systems (currently taking)</p>
       },
       {
-        desc: <p>Algorithms (currently taking)</p>
+        item: <p>Algorithms (currently taking)</p>
       },
       {
-        desc: <p>Search Engine Design</p>
+        item: <p>Search Engine Design</p>
       },
       {
-        desc: <p>Database Management Systems</p>
+        item: <p>Database Management Systems</p>
       },
       {
-        desc: <p>Adversarial Machine Learning</p>
+        item: <p>Adversarial Machine Learning</p>
       },
       {
-        desc: <p>Machine Learning</p>
+        item: <p>Machine Learning</p>
       },
       {
-        desc: <p>Data Structures and Algorithms</p>
+        item: <p>Data Structures and Algorithms</p>
       },
       {
-        desc: <p>Foundations of Computer Science</p>
+        item: <p>Foundations of Computer Science</p>
       },
       {
-        desc: <p>Intro to Computer Organization</p>
+        item: <p>Intro to Computer Organization</p>
       },
       {
-        desc: <p>Computer Science Pragmatics</p>
+        item: <p>Computer Science Pragmatics</p>
       },
-    ]
+    ],
+    indent: true,
   };
   
   return (
