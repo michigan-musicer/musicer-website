@@ -4,7 +4,7 @@ import Divider from './Divider.js'
 export default function SectionWithDivider(props) {
   return (
     <div>
-      <Section props={props}/>
+      <Section props={props.props}/>
       <Divider/>
     </div>
   );

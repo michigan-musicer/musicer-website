@@ -1,9 +1,10 @@
+import './Item.css'
 
-export default function Item(){ 
+export default function Item(props){ 
   return (
-    <div>
-      <p></p>
-      <img></img>
+    <div className='item'>
+      {props.props.left}
+      {props.props.right}
     </div>
   );
 }

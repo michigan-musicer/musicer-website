@@ -1,11 +1,19 @@
 import SectionWithDivider from "./SectionWithDivider";
+import DropDown from "./DropDown";
 
 export default function Column(props) {
+  let listWithNumItems = [];
+  for (let i = 0; i < props.props.sections.length; ++i) {
+    listWithNumItems.push(i);
+  }
+
   return (
     <div>
-      {/* eventually this should be an array that we index into */}
-      {/* and we generate the sections with the mapping strat we use earlier */}
-      <SectionWithDivider props={props}/> 
+      {
+        listWithNumItems.map((i) =>
+          <SectionWithDivider props={props.props.sections[i]}/> 
+        )
+      }
     </div>
   );
 }
