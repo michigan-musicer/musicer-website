@@ -21,17 +21,20 @@ export default function About() {
           {/* <p>{props.desc}</p> */}
           <p>I am a computer science student at the University of Michigan, planning on
             receiving my bachelor's degree this fall and entering an accelerated master's program at Michigan
-            in the winter. Currently I'm most interested in machine learning research 
-            (strongly leaning towards computer vision), but I also enjoy just writing good
-            code to make ideas real.</p>
+            in the winter. As a researcher, I am interested in finding ways to reduce labeler workload in 
+            machine learning pipelines by sampling representative subsets of large datasets. As a software engineer, I enjoy working on 
+            newer, less solved problems in fast-paced environments.</p>
           <p>  
-            <b>Seeking internships for summer 2022</b> in full stack positions, preferably 
-            those adjacent to machine learning or with opportunities to 
-            contribute to machine learning pipelines.
+            <b>Seeking internships for summer 2022</b> in full stack software engineering 
+            (bonus points if the position involves working with machine learning pipelines) 
+            or machine learning research.
           </p>
           <p>  
-            Contact: musicer (at) umich.edu
+            Contact: musicer (at) umich (dot) edu
           </p>
+          <button onClick={() => {navigator.clipboard.writeText('musicer@umich.edu')}}>
+            Copy email to clipboard
+          </button>
         </div>
       </div>
     </div>

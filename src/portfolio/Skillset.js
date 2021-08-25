@@ -11,7 +11,7 @@ export default function Skillset() {
 
   let skillCard1Props = {
     title: 'FUNDAMENTALS',
-    cardColor: 'rgb(255, 203, 5, 1)',
+    cardColor: 'rgb(211, 88, 69, 1)',
     items: [
       'Java', 
       'C++', 
@@ -28,7 +28,7 @@ export default function Skillset() {
 
   let skillCard2Props = {
     title: 'MACHINE LEARNING',
-    cardColor: 'rgb(216, 96, 24, 1)',
+    cardColor: 'rgb(235, 134, 71, 1)',
     items: [
       'Numpy', 
       'Scikit-Learn', 
@@ -55,7 +55,7 @@ export default function Skillset() {
 
   let skillCard4Props = {
     title: 'WORKFLOW',
-    cardColor: 'rgb(152, 156, 151, 1)',
+    cardColor: 'rgb(117, 152, 141, 1)',
     items: [
       'Agile development',
       'Postman',
