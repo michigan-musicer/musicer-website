@@ -1,7 +1,7 @@
 import './About.css'
 import PortfolioPic from '../images/PortfolioPic.jpg'
 
-export default function About(props) {
+export default function About() {
 
   // says props.title and its other properties are null, not sure why
   // It does seem like I should put images in directly so that they are
@@ -11,7 +11,7 @@ export default function About(props) {
       <div className='about-spacing'>
         <div className='about-title'>
           {/* <title>{props.title}</title> */}
-          <h1>Kevin Wang</h1>
+          <h1 className='about-title-text'><b>Kevin Wang</b></h1>
         </div>
         <div className='about-body'>
           {/* we can style the image to be circular or something fancier */}

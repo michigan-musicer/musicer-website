@@ -22,9 +22,16 @@
 
 .skillcard-title-text {
   margin: 0;
+  text-align: center;
 }
 
 .skillcard-body {
   height: auto;
   width: 100%;
 } 
+
+@media (max-width: 1660px) {
+  .skillcard-container {
+    width: 47%;
+  }
+}
