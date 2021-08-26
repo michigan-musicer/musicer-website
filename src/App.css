@@ -17,6 +17,7 @@ h1, h2, h3 {
   min-height: 100vh;
   height: fit-content;
   display: flex;
+  flex-direction: row;
   background-color: rgb(207, 192, 150); 
 }
 
@@ -26,4 +27,13 @@ h1, h2, h3 {
 
 .app-rightside-container {
   width: 100%;
+}
+
+@media (max-width: 1040px) {
+  .app-container {
+    flex-direction: column;
+  }
+  .app-leftside-container {
+    width: 100%;
+  }
 }

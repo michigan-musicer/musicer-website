@@ -43,3 +43,21 @@ about-title-text {
               0px 0.2em 0.25em 0px rgb(0 0 0 / 14%), 
               0px 0.2em 0.75em 0px rgb(0 0 0 / 15%)
 }
+
+.about-copy-email {
+  padding: 0.25em 1em;
+  font-size: medium;
+  box-sizing: border-box;
+  background-color: rgb(47, 101, 167, 1);
+  color: whitesmoke;
+  cursor: pointer;
+  line-height: 1.75;
+  border-radius: 0.5em;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.about-copy-email:hover {
+  background-color: rgb(0, 39, 76, 1);
+}

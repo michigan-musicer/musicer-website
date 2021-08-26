@@ -1,5 +1,5 @@
 import SectionWithDivider from "./SectionWithDivider";
-import DropDown from "./DropDown";
+
 
 export default function Column(props) {
   let listWithNumItems = [];

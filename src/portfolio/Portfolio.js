@@ -1,5 +1,4 @@
-import Column from '../util/Column.js'
-import Divider from '../util/Divider.js'
+import Divider from '../util/Divider.js';
 import Education from './Education.js';
 import Skillset from './Skillset.js';
 import WorkExp from './WorkExp.js';

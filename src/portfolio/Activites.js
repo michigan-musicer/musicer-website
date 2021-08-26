@@ -10,7 +10,7 @@ export default function Activities() {
           // <div style={{width: '100%'}}>
           <div style={{width: '100%'}}>
             <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-              <p><b>Research team leader</b> - DEVIATE (Data Elements from Video using Impartial Algorithm Tools for Extraction)</p>
+              <p style={{paddingRight: '2em'}}><b>Research team leader</b> - DEVIATE (Data Elements from Video using Impartial Algorithm Tools for Extraction)</p>
               <em>Jan 2020 - present</em>
             </div>
             <DropDown props={
@@ -31,7 +31,7 @@ export default function Activities() {
         left: 
           <div style={{width: '100%'}}>
              <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-              <p><b>Education Admin</b> - MSAIL (Michigan Student Artificial Intelligence Lab)</p>
+              <p style={{paddingRight: '2em'}}><b>Education Admin</b> - MSAIL (Michigan Student Artificial Intelligence Lab)</p>
               <em>May 2020 - August 2020</em>
             </div>
             <DropDown props={

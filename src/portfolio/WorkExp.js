@@ -10,7 +10,7 @@ export default function WorkExp() {
           // <div style={{width: '100%'}}>
           <div style={{width: '100%'}}>
             <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-              <p><b>Software engineer, full stack</b> - Ford Autonomous Vehicles LLC</p>
+              <p style={{paddingRight: '2em'}}><b>Software engineer, full stack</b> - Ford Autonomous Vehicles LLC</p>
               <em>May 2021 - August 2021</em>
             </div>
             <DropDown props={{title: 'Accomplishments at Ford', items: 
@@ -31,7 +31,7 @@ export default function WorkExp() {
         left: 
           <div style={{width: '100%'}}>
              <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-              <p><b>Student Researcher</b> - UMTRI (University of Michigan Transportation Research Institute)</p>
+              <p style={{paddingRight: '2em'}}><b>Student Researcher</b> - UMTRI (University of Michigan Transportation Research Institute)</p>
               <em>May 2020 - August 2020</em>
             </div>
             <DropDown props={

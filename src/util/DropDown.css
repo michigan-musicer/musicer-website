@@ -40,5 +40,11 @@
   list-style-type: disc;
 }
 
+@media (max-width: 1040px) {
+  .dropdown-container {
+    width: auto;
+  }
+}
+
 /* .dropdown-content {
 } */
