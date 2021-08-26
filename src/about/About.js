@@ -32,7 +32,7 @@ export default function About() {
           <p>  
             Contact: musicer (at) umich (dot) edu
           </p>
-          <button onClick={() => {navigator.clipboard.writeText('musicer@umich.edu')}}>
+          <button className='about-copy-email' onClick={() => {navigator.clipboard.writeText('musicer@umich.edu')}}>
             Copy email to clipboard
           </button>
         </div>
