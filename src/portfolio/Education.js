@@ -12,7 +12,7 @@ export default function Education() {
       },
       {
         left: <p style={{paddingRight: '2em'}}><b>B.S.E University of Michigan-Ann Arbor, 
-          Computer Science and Engineering </b> </p>,
+          Computer Science and Engineering </b> &emsp;&emsp;&emsp;&emsp;<u>GPA: 3.98</u></p>,
         right: <em>Sept 2019 - Dec 2021</em>
       },
     ]

@@ -21,9 +21,9 @@ export default function About() {
           {/* <p>{props.desc}</p> */}
           <p>I am a computer science student at the University of Michigan, planning on
             receiving my bachelor's degree this fall and entering an accelerated master's program at Michigan
-            in the winter. As a researcher, I am interested in finding ways to reduce labeler workload in 
-            machine learning pipelines by sampling representative subsets of large datasets. As a software engineer, I enjoy working on 
-            newer, less solved problems in fast-paced environments.</p>
+            in the winter. As a researcher, I am interested in finding ways to make machine learning easier to use -- 
+            currently I'm focused on finding subsets of large datasets that preserve model accuracy as much as possible. 
+            As a software engineer, I enjoy working on fresh, less-traveled problems in fast-paced environments.</p>
           <p>  
             <b>Seeking internships for summer 2022</b> in full stack software engineering 
             (bonus points if the position involves working with machine learning pipelines) 
