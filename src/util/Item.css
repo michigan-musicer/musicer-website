@@ -5,3 +5,7 @@
   justify-content: space-between;
   padding: 0em 1.25em;
 }
+
+.left {
+  width: -webkit-fill-available;
+}

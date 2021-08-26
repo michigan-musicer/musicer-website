@@ -10,7 +10,7 @@ export default function Projects() {
           // <div style={{width: '100%'}}>
           <div style={{width: '100%'}}>
             <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-              <p><b>Distributed search engine</b> (senior design project)</p>
+              <p style={{paddingRight: '2em'}}><b>Distributed search engine</b> (senior design project)</p>
               <em>January 2021 - May 2021</em>
             </div>
             <DropDown props={
@@ -31,15 +31,14 @@ export default function Projects() {
         left: 
           <div style={{width: '100%'}}>
              <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-              <p><b>Personal website</b></p>
+              <p style={{paddingRight: '2em'}}><b>Personal website</b></p>
               <em>August 2021 - present</em>
             </div>
             <DropDown props={
               {
                 title: 'Details', 
                 items: [
-                    // turn these into items with left and rights -- use icons on the right to indicate what tools you used / worked with
-                    {item: <p>Created a website using React to display academic and professional accomplishments to potential employers.</p>},
+                    {item: <p>Created a website using React and deployed it with AWS Amplify to display academic and professional accomplishments to potential employers.</p>},
                   ], 
                 indent: false
               }

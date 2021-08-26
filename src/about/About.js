@@ -17,7 +17,7 @@ export default function About() {
           {/* we can style the image to be circular or something fancier */}
           {/* something with a border for sure */}
           {/* either way, serious cropping necessary */}
-          <img className='about-image' src={PortfolioPic}/>
+          <img className='about-image' src={PortfolioPic} alt={'Kevin Wang'}/>
           {/* <p>{props.desc}</p> */}
           <p>I am a computer science student at the University of Michigan, planning on
             receiving my bachelor's degree this fall and entering an accelerated master's program at Michigan

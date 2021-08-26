@@ -1,5 +1,4 @@
 import Section from '../util/Section';
-import DropDown from '../util/DropDown';
 
 export default function Activities() {
   let sectionProps = {
@@ -19,7 +18,7 @@ export default function Activities() {
       },
       {
         left:
-          <p>There's a number of todos for this website, including a blog, responsiveness for mobile, and some styling brushups. Hopefully I'll get to them in November or so :)</p>
+          <p>There's a number of todos for this website, including a blog, improved responsive layout for mobile, and some styling brushups. School will be keeping me busy, so hopefully I can get to them in November or so :)</p>
       }
       // {
       //   left: 

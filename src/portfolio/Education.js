@@ -6,12 +6,12 @@ export default function Education() {
     title: 'Education',
     items: [
       {
-        left: <p>Prospective <b>M.S.E University of Michigan-Ann Arbor, 
+        left: <p style={{paddingRight: '2em'}}>Prospective <b>M.S.E University of Michigan-Ann Arbor, 
           Computer Science and Engineering </b></p>,
         right: <em>Jan 2022 - May 2023</em>
       },
       {
-        left: <p><b>B.S.E University of Michigan-Ann Arbor, 
+        left: <p style={{paddingRight: '2em'}}><b>B.S.E University of Michigan-Ann Arbor, 
           Computer Science and Engineering </b> </p>,
         right: <em>Sept 2019 - Dec 2021</em>
       },
