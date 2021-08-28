@@ -31,7 +31,7 @@ export default function WorkExp() {
         left: 
           <div style={{width: '100%'}}>
              <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-              <p style={{paddingRight: '2em'}}><b>Student Researcher</b> - UMTRI (University of Michigan Transportation Research Institute)</p>
+              <p style={{paddingRight: '2em'}}><b>Student researcher</b> - UMTRI (University of Michigan Transportation Research Institute)</p>
               <em>May 2020 - August 2020</em>
             </div>
             <DropDown props={
