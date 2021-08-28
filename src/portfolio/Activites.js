@@ -31,7 +31,7 @@ export default function Activities() {
         left: 
           <div style={{width: '100%'}}>
              <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-              <p style={{paddingRight: '2em'}}><b>Education Admin</b> - MSAIL (Michigan Student Artificial Intelligence Lab)</p>
+              <p style={{paddingRight: '2em'}}><b>Education admin</b> - MSAIL (Michigan Student Artificial Intelligence Lab)</p>
               <em>May 2020 - August 2020</em>
             </div>
             <DropDown props={
