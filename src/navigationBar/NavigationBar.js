@@ -15,7 +15,7 @@ export default function NavigationBar(props) {
           listWithNumItems.map((i) =>
             <li key={i} className='navigation-bar-item' title='More sections coming soon!'>
               <h2 className='navigation-bar-text'>{props.props.items[i]}</h2>
-              <hr className='navigation-bar-underline'/>
+              {/* <hr className='navigation-bar-underline'/> */}
             </li>
           )
         }
