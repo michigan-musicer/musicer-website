@@ -1,6 +1,5 @@
 .dropdown-container {
-  width: 100%;
-  max-width: 45em;
+  width: auto;
   margin: 0.5em 1.25em;
   padding: 0.25em;
   background: rgb(0, 39, 76, 1);
@@ -8,7 +7,8 @@
   box-shadow: 0px 0.25em 0.125em -0.125em rgb(0 0 0 / 20%), 
               0px 0.125em 0.125em 0px rgb(0 0 0 / 14%), 
               0px 0.125em 0.375em 0px rgb(0 0 0 / 12%);
-  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 0.5em;
 }
 
 .dropdown-button {
@@ -39,12 +39,3 @@
 .dropdown-content-list {
   list-style-type: disc;
 }
-
-@media (max-width: 1040px) {
-  .dropdown-container {
-    width: auto;
-  }
-}
-
-/* .dropdown-content {
-} */
