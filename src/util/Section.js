@@ -20,7 +20,6 @@ export default function Section(props){
       <h2 className='section-header'>{props.props.title}</h2>
       <Divider/>
       <div>
-        {/* we want a similar mapping strategy from the navbar */}
         <ul>
           {
             listWithNumItems.map((i) =>
@@ -34,7 +33,9 @@ export default function Section(props){
           listWithNumSections.map((i) =>
           // create a subsection that's smaller -- might want to use flex tricks
           // drop down menus! with a preview 
-          <div>{props.props.subsections[i].subsection}</div>
+          <div className='section-appended-item'>
+            {props.props.subsections[i].subsection}
+          </div>
           )
         }
       </div>
