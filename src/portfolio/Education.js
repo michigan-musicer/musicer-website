@@ -34,7 +34,7 @@ export default function Education() {
         item: <p>William J. Branstrom Freshman Prize</p>
       },
       {
-        item: <p>University Honors (x5)</p>
+        item: <p>University Honors (x4)</p>
       },
       {
         item: <p>Dean’s List (x2)</p>
