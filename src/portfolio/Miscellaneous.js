@@ -18,7 +18,7 @@ export default function Activities() {
       },
       {
         left:
-          <p>There's a number of todos for this website, including a blog, improved responsive layout for mobile, and some styling brushups. School will be keeping me busy, so hopefully I can get to them in November or so :)</p>
+          <p>I'm aiming to start blogging on Medium. School will be keeping me busy, so I'm hoping to get out one post each month or so :)</p>
       }
       // {
       //   left: 

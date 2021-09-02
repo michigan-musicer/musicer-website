@@ -17,12 +17,12 @@ export default function Skillset() {
       'C++', 
       'C',
       'Python',
+      'JavaScript',
+      'HTML/CSS',
       'SQL',
       'MongoDB',
       'REST APIs', 
-      'Distributed systems', 
-      'Amazon Web Services (Lambda, DynamoDB, Elastic Container Service, API Gateway, Cloudwatch, CloudFormation)'
-
+      'Distributed systems'
     ],
   }
 
@@ -39,21 +39,35 @@ export default function Skillset() {
   }
 
   let skillCard3Props = {
+    title: 'AMAZON WEB SERVICES TECHNOLOGIES',
+    // cardColor: 'rgb(235, 134, 71, 1)',
+    items: [
+      'Lambda', 
+      'CloudFront', 
+      'DynamoDB', 
+      'API Gateway', 
+      'Elastic Container Service', 
+      'CloudWatch', 
+      'CloudFormation',
+      'Amplify'
+    ],
+  }
+
+  let skillCard4Props = {
     title: 'WEB DEV',
     // cardColor: 'rgb(0, 178, 169, 1)',
     items: [
       'Mockito', 
       'Spring/Spring Boot', 
       'Kafka',
-      'React/JSX', 
-      'Jest', 
+      'React',
+      'JSX', 
+      'Jest',
       'Django',
-      'Javascript', 
-      'HTML/CSS'
     ],
   }
 
-  let skillCard4Props = {
+  let skillCard5Props = {
     title: 'WORKFLOW',
     // cardColor: 'rgb(117, 152, 141, 1)',
     items: [
@@ -61,10 +75,12 @@ export default function Skillset() {
       'Postman',
       'Jira/Rally',
       'Jenkins',
+      'SonarQube',
       'Make',
       'Linux',
       'Git/GitHub',
-      'Microsoft Office/Google Suite/LaTeX',
+      'Microsoft Office/Google Suite',
+      'LaTeX',
     ],
   }
 
@@ -76,6 +92,7 @@ export default function Skillset() {
         <SkillCard props={skillCard2Props}/>
         <SkillCard props={skillCard3Props}/>
         <SkillCard props={skillCard4Props}/>
+        <SkillCard props={skillCard5Props}/>
       </div>
     </div>
   );

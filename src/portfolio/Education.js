@@ -40,7 +40,7 @@ export default function Education() {
         item: <p>Dean’s List (x2)</p>
       },
       {
-        item: <p>Regents Merit Scholarship for academic merit</p>
+        item: <p>Regents Merit Scholarship</p>
       },
     ],
     indent: true,
@@ -62,10 +62,10 @@ export default function Education() {
         item: <p>Database Management Systems</p>
       },
       {
-        item: <p>Adversarial Machine Learning</p>
+        item: <p>Machine Learning</p>
       },
       {
-        item: <p>Machine Learning</p>
+        item: <p>Adversarial Machine Learning</p>
       },
       {
         item: <p>Data Structures and Algorithms</p>
@@ -82,12 +82,32 @@ export default function Education() {
     ],
     indent: true,
   };
+
+  let certificatesDropDownProps = {
+    title: 'Professional certificates',
+    items: [
+      {
+        item: <p>Deep Learning Specialization from deeplearning.ai</p>
+      },
+      {
+        item: <p>Machine Learning from Stanford University</p>
+      },
+      {
+        item: <p>Django for Everybody from University of Michigan</p>
+      },
+      {
+        item: <p>Distributed System Design Fundamentals from Particular Software</p>
+      },
+    ],
+    indent: true,
+  };
   
   return (
     <div>
       <Section props={sectionProps}/>
       <DropDown props={awardsDropDownProps}/>
       <DropDown props={classesDropDownProps}/>
+      <DropDown props={certificatesDropDownProps}/>
     </div>
   );
 }

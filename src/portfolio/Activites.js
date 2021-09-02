@@ -18,9 +18,10 @@ export default function Activities() {
                 title: 'Details', 
                 items: [
                   // turn these into items with left and rights -- use icons on the right to indicate what tools you used / worked with
-                  {item: <p>Spearheading work on the research team by giving weekly presentations, organizing weekly team meetings, creating agendas, and guiding discussions to inform, direct, and assist team members with machine learning tasks.</p>},
-                  {item: <p>Chosen for the DEVIATE lab at UMTRI through MDP (Multidisciplinary Design Program), a competitively selective program run by the College of Engineering.</p>},
-                  {item: <p>Received and accepted offer to continue research work over the summer (see in "Work Experience" above)</p>},
+                  {item: <p>Spearheading work at a lab at UMTRI (University of Michigan Transportation Research Institute) by organizing logistics and providing technical guidance on machine learning problems to inform, direct, and assist team members.</p>},
+                  {item: <p>Investigating contrastive learning to learn embeddings of image spaces to facilitate sampling a dataset with a balanced number of image class instances.</p>},
+                  {item: <p>Wrote up technical justification and implementation plans for using a generative adversarial network-based architecture as the basis for defining images in a latent variable space and sampling based on that variable space.</p>},
+                  {item: <p>Received and accepted offer to continue research work over the summer (see "Work Experience" above).</p>},
                 ], 
                 indent: false
               }
@@ -38,9 +39,9 @@ export default function Activities() {
               {
                 title: 'Details', 
                 items: [
-                  {item: <p>Created plans, Python code, tests, and follow-up analysis for utilizing algorithms from research papers  to classify images without supervision, laying foundations for future approaches with similar strategies.</p>},
-                  {item: <p>Investigated computer vision methods to reduce dataset size to increase efficiency of video labelers while maximizing accuracy and minimizing biased decision-making, facilitating research by our funder, the Federal Highway Administration.</p>},
-                  {item: <p>Introduced new student researchers to the lab by writing documentation and holding meetings, familiarizing newcomers with the project three months faster than it took for previous student researchers. </p>},
+                  {item: <p>Created material for and taught over half of MSAIL’s first ever education curriculum, teaching fundamental concepts in machine learning to incoming members of MSAIL and making the organization more welcoming for those with less AI / ML background.</p>},
+                  {item: <p>Acted as individual lead on the education team in the winter 2021 term, creating new educational materials based on feedback from the pilot semester and presenting introductions to areas of AI at virtual education sessions.</p>},
+                  {item: <p>Wrote the pilot article for MSAIL’s new blog initiative and worked with blog admins to experiment with and eventually define a process for creating and publishing posts.</p>},
                 ],
                 indent: false
               }
