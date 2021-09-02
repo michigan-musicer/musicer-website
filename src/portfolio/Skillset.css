@@ -1,6 +1,12 @@
 .skillset-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+@media (max-width: 1660px) {
+  .skillset-container {
+    justify-content: center;
+  }
 }
