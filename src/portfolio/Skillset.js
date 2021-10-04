@@ -13,16 +13,16 @@ export default function Skillset() {
     title: 'FUNDAMENTALS',
     // cardColor: 'rgb(211, 88, 69, 1)',
     items: [
-      'Java', 
       'C++', 
-      'C',
+      'Java', 
       'Python',
+      'C',
       'JavaScript',
+      'REST APIs', 
+      'Distributed systems',
       'HTML/CSS',
       'SQL',
-      'MongoDB',
-      'REST APIs', 
-      'Distributed systems'
+      'NoSQL databases',
     ],
   }
 
@@ -54,14 +54,14 @@ export default function Skillset() {
   }
 
   let skillCard4Props = {
-    title: 'WEB DEV',
+    title: 'FRONTEND AND BACKEND',
     // cardColor: 'rgb(0, 178, 169, 1)',
     items: [
-      'Mockito', 
+      'React',
       'Spring/Spring Boot', 
       'Kafka',
-      'React',
-      'JSX', 
+      'MongoDB',
+      'Mockito',
       'Jest',
       'Django',
     ],
@@ -72,13 +72,14 @@ export default function Skillset() {
     // cardColor: 'rgb(117, 152, 141, 1)',
     items: [
       'Agile development',
-      'Postman',
+      'CI/CD',
+      'Git/GitHub',
       'Jira/Rally',
       'Jenkins',
       'SonarQube',
       'Make',
+      'Postman',
       'Linux',
-      'Git/GitHub',
       'Microsoft Office/Google Suite',
       'LaTeX',
     ],

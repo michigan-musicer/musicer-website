@@ -17,8 +17,8 @@ export default function WorkExp() {
               [
                 // turn these into items with left and rights -- use icons on the right to indicate what tools you used / worked with
                 {item: <p>Expanded demo idea with single endpoint and single frontend page into a standalone product by adding four AWS Lambda endpoints, two DynamoDB tables, a Spring Boot backend hosted on AWS Elastic Container Service running a Kafka consumer, and two React pages to add business functionality and display new business information to customers.</p>},
-                {item: <p>Practiced agile and pair programming workflows with the assistance of tools including Rally, Jenkins, and SonarQube, completing 50 user stories as a two-developer team in three months.</p>},
-                {item: <p>Read from third-party APIs from Autonomic and cooperated with external software engineers to display relevant business data to customers.</p>},
+                {item: <p>Practiced agile and pair programming workflows using tools including Rally, Jenkins, and SonarQube, completing 50 user stories as a two-developer team in three months.</p>},
+                {item: <p>Read from third-party APIs from Autonomic and cooperated with external software engineers to collect and display business data processed through third-party services.</p>},
                 {item: <p>Fixed bugs, refactored existing code, and improved performance by restructuring our application and reducing the amount of API calls,  ingraining best software engineering practices along the way.</p>},
                 {item: <p>Interviewed customers about web application design and implemented changes based on feedback to display data to consumers of our product in a more helpful manner.</p>},
               ], indent: false}}/>

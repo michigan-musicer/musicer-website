@@ -50,10 +50,10 @@ export default function Education() {
     title: 'Selected coursework',
     items: [
       {
-        item: <p>Operating Systems (currently taking)</p>
+        item: <p>Operating Systems (current)</p>
       },
       {
-        item: <p>Algorithms (currently taking)</p>
+        item: <p>Algorithms (current)</p>
       },
       {
         item: <p>Search Engine Design</p>
