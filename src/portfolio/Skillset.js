@@ -10,19 +10,19 @@ export default function Skillset() {
   }
 
   let skillCard1Props = {
-    title: 'FUNDAMENTALS',
+    title: 'SOFTWARE ENGINEERING',
     // cardColor: 'rgb(211, 88, 69, 1)',
     items: [
       'C++', 
-      'Java', 
       'Python',
-      'C',
+      'Java', 
       'JavaScript',
-      'REST APIs', 
+      'C',
       'Distributed systems',
-      'HTML/CSS',
+      'REST',
+      'Multithreading', 
       'SQL',
-      'NoSQL databases',
+      'NoSQL',
     ],
   }
 
@@ -30,26 +30,27 @@ export default function Skillset() {
     title: 'MACHINE LEARNING',
     // cardColor: 'rgb(235, 134, 71, 1)',
     items: [
+      'PyTorch', 
+      'TensorFlow 1/2', 
       'Numpy', 
       'Scikit-Learn', 
-      'PyTorch', 
-      'TensorFlow', 
       'Keras'
     ],
   }
 
   let skillCard3Props = {
-    title: 'AMAZON WEB SERVICES TECHNOLOGIES',
+    title: 'CLOUD TECHNOLOGIES',
     // cardColor: 'rgb(235, 134, 71, 1)',
     items: [
-      'Lambda', 
-      'CloudFront', 
-      'DynamoDB', 
-      'API Gateway', 
-      'Elastic Container Service', 
-      'CloudWatch', 
-      'CloudFormation',
-      'Amplify'
+      'AWS Lambda', 
+      'AWS CloudFront', 
+      'AWS DynamoDB', 
+      'AWS API Gateway', 
+      'AWS Elastic Container Service', 
+      'AWS CloudWatch', 
+      'AWS CloudFormation',
+      'AWS Amplify',
+      'Google Cloud Compute Engine'
     ],
   }
 
@@ -60,10 +61,8 @@ export default function Skillset() {
       'React',
       'Spring/Spring Boot', 
       'Kafka',
-      'MongoDB',
       'Mockito',
-      'Jest',
-      'Django',
+      'Jest'
     ],
   }
 

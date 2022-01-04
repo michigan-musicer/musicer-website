@@ -6,13 +6,14 @@ export default function Education() {
     title: 'Education',
     items: [
       {
-        left: <p style={{paddingRight: '2em'}}>Prospective <b>M.S.E University of Michigan-Ann Arbor, 
+        left: <p style={{paddingRight: '2em'}}><b>M.S.E University of Michigan-Ann Arbor, 
           Computer Science and Engineering </b></p>,
         right: <em>Jan 2022 - May 2023</em>
       },
       {
-        left: <p style={{paddingRight: '2em'}}><b>B.S.E University of Michigan-Ann Arbor, 
-          Computer Science and Engineering </b> &emsp;&emsp;&emsp;&emsp;<u>GPA: 3.98</u></p>,
+        left: <div><p style={{paddingRight: '2em'}}><b>B.S.E University of Michigan-Ann Arbor, 
+          Computer Science and Engineering </b> &emsp;&emsp;&emsp;&emsp;</p>
+          <p><b>GPA:</b> 3.95</p></div>,
         right: <em>Sept 2019 - Dec 2021</em>
       },
     ]
@@ -22,7 +23,7 @@ export default function Education() {
       title: 'Awards',
       items: [
       {
-        item: <p>James B. Angell Scholar</p>
+        item: <p>James B. Angell Scholar (x3)</p>
       },
       {
         item: <p>Charles Barth Jr. Prize finalist</p>
@@ -34,10 +35,10 @@ export default function Education() {
         item: <p>William J. Branstrom Freshman Prize</p>
       },
       {
-        item: <p>University Honors (x4)</p>
+        item: <p>University Honors (x5)</p>
       },
       {
-        item: <p>Dean’s List (x2)</p>
+        item: <p>Dean’s List (x3)</p>
       },
       {
         item: <p>Regents Merit Scholarship</p>
@@ -50,10 +51,10 @@ export default function Education() {
     title: 'Selected coursework',
     items: [
       {
-        item: <p>Operating Systems (current)</p>
+        item: <p>Operating Systems</p>
       },
       {
-        item: <p>Algorithms (current)</p>
+        item: <p>Algorithms</p>
       },
       {
         item: <p>Search Engine Design</p>
