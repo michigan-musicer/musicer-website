@@ -18,7 +18,10 @@ export default function Activities() {
       },
       {
         left:
-          <p>I'm aiming to start blogging on Medium. School will be keeping me busy, so I'm hoping to get out one post each month or so :)</p>
+          <div>
+            <p>I'm aiming to start blogging on Medium. School will be keeping me busy, so I'm hoping to get out one post each month or so :)</p>
+            <em>This is what I said last year and I did not blog a single thing...I hope to get started on Saturday and get the momentum going at least.</em>
+          </div>
       }
       // {
       //   left: 
