@@ -21,7 +21,7 @@ export default function About() {
             <img className='about-image' src={PortfolioPic} alt={'Kevin Wang'}/>
           </div>
           {/* <p>{props.desc}</p> */}
-          <p>I am a master's student in computer science at the University of Michigan-Ann Arbor. I currently teach EECS 545, Michigan's graduate-level machine learning course.</p>
+          <p>I am a master's student in computer science at the University of Michigan-Ann Arbor. I am currently a graduate student instructor for EECS 545, Michigan's graduate-level machine learning course.</p>
           <p>As a researcher, I am interested in building bridges between sampling in machine learning theory and computer vision applications, with a focus on learning fair algorithms. As a software engineer, I enjoy working close to the metal (sorry Python coders) on lower-level infrastructure, and at this stage in my career I have a particular love for dynamic problem spaces with less established solutions.</p>
           {/* <p>  
             <b>Seeking internships for summer 2022</b> in full stack software engineering 
