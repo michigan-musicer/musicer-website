@@ -2,7 +2,7 @@ import Section from '../util/Section';
 
 export default function Activities() {
   let sectionProps = {
-    title: 'Professional Experience', 
+    title: 'Miscellanea', 
     items: [
       {
         left: 
@@ -19,8 +19,7 @@ export default function Activities() {
       {
         left:
           <div>
-            <p>I'm aiming to start blogging on Medium. School will be keeping me busy, so I'm hoping to get out one post each month or so :)</p>
-            <em>This is what I said last year and I did not blog a single thing...I hope to get started on Saturday and get the momentum going at least.</em>
+            <p>I'm aiming to start blogging on Medium. School will be keeping me busy, but I'm hoping to get out one post each Sunday :)</p>
           </div>
       }
       // {
