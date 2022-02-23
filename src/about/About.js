@@ -36,6 +36,9 @@ export default function About() {
             or machine learning research.
           </p> */}
           <p>  
+            <a href='https://www.linkedin.com/in/kevin-wang-978627196/'>Here's my LinkedIn!</a> Someday I will make it a nice button, but today I am busy <em>(never updates it ever again)</em>
+          </p>
+          <p>  
             Contact: musicer (at) umich (dot) edu
           </p>
           <button className='about-copy-email' onClick={() => {navigator.clipboard.writeText('musicer@umich.edu')}}>
