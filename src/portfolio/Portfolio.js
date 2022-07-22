@@ -10,14 +10,18 @@ import Miscellaneous from './Miscellaneous.js';
 export default function Portfolio(props) {
   return (  
     <div>
-      <Education/>
-      <Divider/>
-      <Skillset/>
-      <Divider/>
-      <WorkExp/>
-      <Projects/>
-      <Activities/>
-      <Miscellaneous/>
+      <p>This portfolio is out of date and needs a rework. Be right back with an update!</p>
+      <p>In the meantime, my LinkedIn is up at https://www.linkedin.com/in/kevin-wang-978627196/</p>
     </div>
+    // <div>
+    //   <Education/>
+    //   <Divider/>
+    //   <Skillset/>
+    //   <Divider/>
+    //   <WorkExp/>
+    //   <Projects/>
+    //   <Activities/>
+    //   <Miscellaneous/>
+    // </div>
   );
 }
