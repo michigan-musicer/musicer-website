@@ -214,14 +214,18 @@ export default function App() {
 // will need to make it responsive to be viewable on mobile
   return (
     // copy the styling for matUI card and use it here
-    <div className='app-container'> 
-      <div className='app-leftside-container'>
-        <About props={getAboutProps()}/>
-      </div>
-      <div className='app-rightside-container'>
-        <NavigationBar props={NavigationBarProps}/>
-        <Portfolio props={PortfolioProps}/>
-      </div>
+    <div>
+      <p>This portfolio is out of date and needs a rework. Be right back with an update!</p>
+      <p>In the meantime, my LinkedIn is up at https://www.linkedin.com/in/kevin-wang-978627196/</p>
     </div>
+    // <div className='app-container'> 
+    //   <div className='app-leftside-container'>
+    //     <About props={getAboutProps()}/>
+    //   </div>
+    //   <div className='app-rightside-container'>
+    //     <NavigationBar props={NavigationBarProps}/>
+    //     <Portfolio props={PortfolioProps}/>
+    //   </div>
+    // </div>
   );
 }
