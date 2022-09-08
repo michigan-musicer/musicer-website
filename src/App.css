@@ -1,39 +1,7 @@
-body {
-  color: rgb(0, 39, 76, 1);
-  font-family:'Nunito Sans', 'Montserrat', 'Merriweather', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: large;
+.main-toplevel-container {
+  
 }
 
-p {
-  font-size: large;
-}
+.main-profile-container {
 
-h1, h2, h3 {
-  font-family: 'Oswald', 'Playfair Display', 'Times New Roman', serif;
-}
-
-.app-container {
-  width: 100%;
-  min-height: 100vh;
-  height: fit-content;
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(223, 212, 185); 
-}
-
-.app-leftside-container {
-  width: 40em;
-}
-
-.app-rightside-container {
-  width: 100%;
-}
-
-@media (max-width: 1040px) {
-  .app-container {
-    flex-direction: column;
-  }
-  .app-leftside-container {
-    width: 100%;
-  }
 }
